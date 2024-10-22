@@ -1,0 +1,47 @@
+body {
+    margin: 80;
+    font-family: Arial, sans-serif;
+    background-image: url(https://logodownload.org/wp-content/uploads/2016/09/vasco-logo-0.png); /* Substitua pelo caminho da sua imagem */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Imagem fixa enquanto rola a página */
+}
+
+h1 {
+    text-align: center;
+    color: #f00a0a;
+}
+
+p {
+    text-align: center;
+    color: #fa1414;
+}
+
+.custom-background {
+    width: 85
+%;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: top;
+    border:0px solid #eeeeee;
+}
+
+/* Teste de background-blend-mode */
+.custom-background {
+    background-blend-mode: overlay; /* Modo de mesclagem */
+}
+
+/* Estilo da caixa de texto */
+.text-box {
+    position: absolute; /* Permite posicionar a caixa sobre a imagem */
+    top: 20%; /* Centraliza verticalmente */
+    left: 30%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para o centro */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efeito de profundidade */
+}
